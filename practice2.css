@@ -1,0 +1,109 @@
+body{
+    font-weight: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    width: 100%;
+}
+.top-menu{
+    width: 100%;
+    display: flex;
+    background-color:black;
+    height: 100px;   
+}
+.menu{
+    min-width: 200px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 40px;
+    }
+    .image-container{
+        display: flex;
+        position: relative;
+        text-align: center;
+
+    }
+    #banner-image{
+        width: 100%;
+    }
+    .banner-title{
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 40%;
+        font-size: 60px;
+    }
+    .banner-subtitle{
+        position: absolute;
+        font-size: 20px;
+        top: 21%;
+        left: 46%;
+    }
+    .skill-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 500px;
+        margin-top: 50px;
+        flex-direction: row;
+        margin-left: auto;
+   }
+   .skill1{
+       display: flex;
+       width: 100%;
+       margin: 40px;
+       justify-content: center;
+
+   }
+   #image{
+       width: 200px;
+       height: 200px;
+      
+   }
+   #skill-text{
+       color: black;
+       margin-top: 80px;
+       font-size: 30px;
+
+   }
+   .skill-heading
+   {display: flex;
+    widows: 300%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    font-size: 3.0em;
+    margin-bottom: 150px;
+ }
+    .skill-title{
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+   #line1{
+       width: 1000px;
+       align-self: center;
+   }
+    .contact-title{
+        
+        color: black;
+        background-color: white;
+              font-size: 3.0em;
+             margin-left: 42%;
+             margin-top: 5%;
+             justify-content: center;
+         }
+         #line2{
+            width: 1000px;
+              align-self: center;
+              
+          }
+          .contact-material{
+              margin-top: 10%;
+              margin-right: 0%;
+          }
+          .contact{
+            position: absolute;
+            margin-right: 200px;
+            margin-top: 250px;
+        }
+        
